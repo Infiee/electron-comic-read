@@ -1,0 +1,8 @@
+# dist
+dist_electron
+
+# node modules
+node_modules
+
+# data
+data

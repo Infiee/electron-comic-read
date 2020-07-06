@@ -1,0 +1,58 @@
+/**
+ * @ Author: fei.wong
+ * @ Create Time: 2020-06-08 16:46:29
+ * @ Modified by: fei.wong
+ * @ Modified time: 2020-06-28 15:03:55
+ * @ Description:
+ */
+ @import './base.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(45deg, #b7c7eb, rgba(240, 199, 208, 0.95))
+    no-repeat;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  -webkit-app-region: no-drag;
+}
+
+a{
+  text-decoration: none;
+}
+
+.app-drag {
+  -webkit-app-region: drag;
+}
+
+.no-select {
+  -webkit-user-select: none;
+}
+
+[v-cloak] {
+  display: none;
+}
